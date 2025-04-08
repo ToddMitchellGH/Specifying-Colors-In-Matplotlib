@@ -8,8 +8,12 @@ Matplotlib has many preset colormaps:
 ![alt text](https://matplotlib.org/stable/_images/sphx_glr_colormaps_002_2_00x.png)
 <br>
 
-![alt text](https://github.com/ToddMitchellGH/Specifying-Colors-In-Matplotlib/blob/master/Create_Blues_colormap.png)
+<!-- ![alt text](https://github.com/ToddMitchellGH/Specifying-Colors-In-Matplotlib/blob/master/Create_Blues_colormap.png) -->
+<img src="Create_Blues_colormap.png" width=750>
 ![alt text](https://github.com/ToddMitchellGH/Specifying-Colors-In-Matplotlib/blob/master/matplotlib_blues_rgb_deomposition.png)
+
+<!-- ![alt text](https://github.com/ToddMitchellGH/National-Park-Service-Ozone/blob/master/ozonecamaythroughoctober.png) -->
+<img src="ozonecamaythroughoctober.png" width=750>
 
 
 
