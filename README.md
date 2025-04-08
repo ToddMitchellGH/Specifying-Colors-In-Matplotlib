@@ -9,6 +9,7 @@ Matplotlib has many preset colormaps:
 <br>
 
 ![alt text](https://github.com/ToddMitchellGH/Specifying-Colors-In-Matplotlib/blob/master/Create_Blues_colormap.png)
+![alt text](https://github.com/ToddMitchellGH/Specifying-Colors-In-Matplotlib/blob/master/matplotlib_blues_rgb_deomposition.png)
 
 
 
