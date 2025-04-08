@@ -3,12 +3,18 @@
 <br>
 <br>
 
-
 Matplotlib has many preset colormaps (from <a href="https://matplotlib.org/stable/users/explain/colors/colormaps.html">here</a>):
 ![alt text](https://matplotlib.org/stable/_images/sphx_glr_colormaps_002_2_00x.png)
 <br>
 
-The basic code here I got from somewhere else, StackOverflow most likely.  My goal is to make just the code one needs available in one place.
+The basic code here I got from Matplotlib documentation or StackOverflow.  My goal is to make just-the-code-one-needs available in one place.
+<code><pre>from matplotlib import cm 
+import matplotlib.colors as colors
+newcolors = cm.get_cmap('Blues', 12)
+newcolors = newcolors(np.linspace(0, 1, 12))
+newcolors = newcolors[1:]
+newcmp = colors.ListedColormap(newcolors)
+cm.get_cmap( newcmp )</pre></code>
 <p align='center'>
 <img src="Create_Blues_colormap.png" align="center" width=750>
 </p>
