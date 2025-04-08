@@ -20,24 +20,22 @@ cm.get_cmap( newcmp )</pre></code>
 </p>
 <br>
 
-</rb>
 The "Blues" colormap has the following Red-Green-Blue (RGB) decomposition:
 <p align='center'>
 <img src="matplotlib_blues_rgb_decomposition.png" align="center" width=750>
 </p>
-I don't like how the blue saturates so much at the highest values.  Matplotlib doesn't explain how they came up with their colormaps.  In the above link, they claim that "Blues" is "perceptually uniform," but I don't see it.  From looking at the RGB decomposition, it seems that it would easy to get the B-values of the colormap to decrease linearly for the highest values.
+I don't like how the blue saturates at the highest values.  Matplotlib claims that "Blues" is "perceptually uniform," without providing a definition or reference.  From looking at the RGB decomposition, it seems that it would easy to get the B-values of the colormap to decrease linearly for the highest values.
 <br>
-
+<br>
 Once you have found a colormap you like, you need the following code to use it in a filled contour diagram:
-
-<code>
+<code><pre>
 cmap = colors.ListedColormap( newcmp.colors )
 norm = colors.BoundaryNorm( contours, cmap.N )
 
-cartopygcs = ax.contourf( xgrid2, ygrid2, sumfdat/10, \
-            cmap=cmap, levels=contours, norm=norm, transform=ccrs.PlateCarree(), zorder=0 )
+cartopygcs = ax.contourf( xgrid2, ygrid2, sumfdat/10, cmap=cmap, levels=contours, norm=norm, transform=ccrs.PlateCarree(), zorder=0 )
 In particular, "cmap=cmap, levels=contours, norm=norm" 
 where 
-contours = np.array( [ 0, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024 ] )
-</code>
+contours = np.array( [ 0, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024 ] )</pre></code>
+<br>
+The plot in this section is from the GPCC data directory, work5.ipynb, on my computer.
 
