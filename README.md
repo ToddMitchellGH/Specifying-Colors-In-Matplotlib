@@ -8,7 +8,7 @@ Matplotlib has many preset colormaps:
 ![alt text](https://matplotlib.org/stable/_images/sphx_glr_colormaps_002_2_00x.png)
 <br>
 
-
+![alt text](https://github.com/ToddMitchellGH/Specifying-Colors-In-Matplotlib/blob/master/Create Blues colormap.png)
 
 
 
