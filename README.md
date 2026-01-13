@@ -1,5 +1,4 @@
 # Specifying-Colors-In-Matplotlib
-### This is a repository of ideas on how to make useful color plots.
 <br>
 <br>
 ## General Ideas
@@ -40,6 +39,6 @@ contours = np.array( [ 0, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024 ] )</pre><
 <br>
 The plot in this section is from the GPCC data directory, work5.ipynb, on my computer.
 
-## Specifying color in precipitation plots
+## Specifying Color in Precipitation Plots
 
 <img src="matplotlib_blues_rgb_decomposition.png" align="center" width=750>
