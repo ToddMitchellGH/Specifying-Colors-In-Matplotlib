@@ -43,7 +43,10 @@ The plot in this section is from the GPCC data directory, work5.ipynb, on my com
 ## Specifying Color in Precipitation Plots
 
 <img src="precipitation_amounts_sorted.png" align="center" width=750>
-The values are the 1-degree latitude-longitude estimates ofland precipitation from the Global Precipitation Climatology Centre for December 2025.  There are about 19000 values.  A histogram of the data using bins that are a power of 2 (although I forgot "1") yields
+The values are the 1-degree latitude-longitude estimates ofland precipitation from the Global Precipitation Climatology Centre for December 2025.  There are about 19000 values.
+
+A histogram of the data using bins that are a power of 2 yields
+<img src="precipitation histogram.png" align="center" width=750>
 Value Number
 0     1400
 >0    3900
@@ -55,7 +58,7 @@ Value Number
 >32    600
 >64     24
 
-2825, 3098, 3221, 1985, 1875,  646,   24
-2825, 3098, 3221, 1985, 1875,  646,   24
+
 
 <img src="pregpcc202511.sampling_Atlantic.png" align="center" width=750>
+<img src="precipitation histogram.png" align="center" width=750>
