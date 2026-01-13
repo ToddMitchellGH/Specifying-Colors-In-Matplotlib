@@ -2,6 +2,7 @@
 ### This is a repository of ideas on how to make useful color plots.
 <br>
 <br>
+## General Ideas
 
 Matplotlib has many preset colormaps (from <a href="https://matplotlib.org/stable/users/explain/colors/colormaps.html">here</a>):
 ![alt text](https://matplotlib.org/stable/_images/sphx_glr_colormaps_002_2_00x.png)
