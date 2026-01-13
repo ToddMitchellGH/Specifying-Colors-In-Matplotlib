@@ -42,7 +42,7 @@ The plot in this section is from the GPCC data directory, work5.ipynb, on my com
 
 ## Specifying Color in Precipitation Plots
 
-I am using 1-degree latitude-longitude estimates ofland precipitation from the Global Precipitation Climatology Centre for December 2025.  There are about 19000 values.
+I am using 1-degree latitude-longitude estimates of land precipitation from the Global Precipitation Climatology Centre for December 2025.  There are about 19000 values.
 <img src="precipitation_amounts_sorted.png" align="center" width=750>
 
 A histogram of the data using bins that are a power of 2 yields
