@@ -45,10 +45,9 @@ The plot in this section is from the GPCC data directory, work5.ipynb, on my com
 I am using 1-degree latitude-longitude estimates of land precipitation from the Global Precipitation Climatology Centre for December 2025.  There are about 19000 values.
 <img src="precipitation_amounts_sorted.png" align="center" width=750>
 
-A histogram of the data using bins that are a power of 2 yields<br>
+A histogram of the data using bins of zero and powers of 2 yields<br>
 <img src="precipitation histogram.png" align="center" width=150>
 
-I used 0 and powers of 2 for jumps in color.<br>
+I used 0 and powers of 2 for jumps in color, and the colors were provided by colorbrewer2.org.
 <img src="pregpcc202511.sampling_Atlantic.png" align="center" width=1000>
-I used colorbrewer2.org to pick the colors.
 
