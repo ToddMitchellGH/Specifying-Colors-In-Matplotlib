@@ -1,4 +1,5 @@
 # Specifying-Colors-In-Matplotlib
+## General Ideas
 <br>
 <br>
 ## General Ideas
