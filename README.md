@@ -38,7 +38,7 @@ contours = np.array( [ 0, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024 ] )</pre><
 <br>
 The plot in this section is from the GPCC data directory, work5.ipynb, on my computer.
 
-## Specifying Color in Precipitation Plots
+## Precipitation Plots
 
 I am using 1-degree latitude-longitude estimates of land precipitation from the Global Precipitation Climatology Centre for December 2025.  There are about 19000 values.<br>
 <img src="precipitation_amounts_sorted.png" align="center" width=750>
